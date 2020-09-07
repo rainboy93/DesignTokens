@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tokenWhite"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/tokenSpacing16">
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/border_2"
+            android:gravity="center"
+            android:text="tokenBorderRadius02"
+            android:textColor="@color/tokenWhite" />
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/tokenSpacing16"
+            android:background="@drawable/border_4"
+            android:gravity="center"
+            android:text="tokenBorderRadius04"
+            android:textColor="@color/tokenWhite" />
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/tokenSpacing16"
+            android:background="@drawable/border_6"
+            android:gravity="center"
+            android:text="tokenBorderRadius06"
+            android:textColor="@color/tokenWhite" />
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/tokenSpacing16"
+            android:background="@drawable/border_8"
+            android:gravity="center"
+            android:text="tokenBorderRadius08"
+            android:textColor="@color/tokenWhite" />
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/tokenSpacing16"
+            android:background="@drawable/border_10"
+            android:gravity="center"
+            android:text="tokenBorderRadius10"
+            android:textColor="@color/tokenWhite" />
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/tokenSpacing16"
+            android:background="@drawable/border_12"
+            android:gravity="center"
+            android:text="tokenBorderRadius12"
+            android:textColor="@color/tokenWhite" />
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/tokenSpacing16"
+            android:background="@drawable/border_14"
+            android:gravity="center"
+            android:text="tokenBorderRadius14"
+            android:textColor="@color/tokenWhite" />
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/tokenSpacing16"
+            android:background="@drawable/border_16"
+            android:gravity="center"
+            android:text="tokenBorderRadius16"
+            android:textColor="@color/tokenWhite" />
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/tokenSpacing16"
+            android:background="@drawable/border_18"
+            android:gravity="center"
+            android:text="tokenBorderRadius18"
+            android:textColor="@color/tokenWhite" />
+
+        <TextView
+            style="@style/fontBold14"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/tokenSpacing16"
+            android:background="@drawable/border_20"
+            android:gravity="center"
+            android:text="tokenBorderRadius20"
+            android:textColor="@color/tokenWhite" />
+    </LinearLayout>
+</ScrollView>

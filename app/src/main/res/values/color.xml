@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cyan -->
+    <color name="tokenCyan100">#17adb0</color>
+    <color name="tokenCyan80">#45bdc0</color>
+    <color name="tokenCyan60">#74ced0</color>
+    <color name="tokenCyan40">#a2dedf</color>
+    <color name="tokenCyan20">#d1efef</color>
+    <color name="tokenCyan10">#e8f7f7</color>
+    <!-- Blue -->
+    <color name="tokenBlue100">#007ddd</color>
+    <color name="tokenBlue80">#3397e4</color>
+    <color name="tokenBlue60">#66b1eb</color>
+    <color name="tokenBlue40">#99cbf1</color>
+    <color name="tokenBlue20">#cce5f8</color>
+    <color name="tokenBlue10">#e6f2fc</color>
+    <!-- Gradient -->
+    <color name="tokenRainbowBlueStart">#17adb0</color>
+    <color name="tokenRainbowBlueEnd">#007ddd</color>
+    <!-- Green -->
+    <color name="tokenGreen100">#4cd964</color>
+    <color name="tokenGreen80">#70e183</color>
+    <color name="tokenGreen60">#94e8a2</color>
+    <color name="tokenGreen40">#b7f0c1</color>
+    <color name="tokenGreen20">#dbf7e0</color>
+    <color name="tokenGreen10">#edfbf0</color>
+    <!-- Yellow -->
+    <color name="tokenYellow100">#ffbe41</color>
+    <color name="tokenYellow80">#ffcb67</color>
+    <color name="tokenYellow60">#ffd88d</color>
+    <color name="tokenYellow40">#ffe5b3</color>
+    <color name="tokenYellow20">#fff2d9</color>
+    <color name="tokenYellow10">#fff8ec</color>
+    <!-- Red -->
+    <color name="tokenRed100">#ff645c</color>
+    <color name="tokenRed80">#ff837d</color>
+    <color name="tokenRed60">#ffa29d</color>
+    <color name="tokenRed40">#ffc1be</color>
+    <color name="tokenRed20">#ffe0de</color>
+    <color name="tokenRed10">#fff0ef</color>
+    <!-- Neutral -->
+    <color name="tokenDark100">#222222</color>
+    <color name="tokenDark80">#4e4e4e</color>
+    <color name="tokenDark60">#7a7a7a</color>
+    <color name="tokenDark40">#a7a7a7</color>
+    <color name="tokenDark20">#d3d3d3</color>
+    <color name="tokenDark10">#e9e9e9</color>
+    <color name="tokenDark05">#f4f4f4</color>
+    <color name="tokenDark02">#fbfbfb</color>
+    <color name="tokenBlack">#000000</color>
+    <color name="tokenWhite">#ffffff</color>
+
+    <!-- Opacity 10 -->
+    <color name="tokenOpacity10">#1A000000</color>
+    <!-- Opacity 25 -->
+    <color name="tokenOpacity25">#40000000</color>
+    <!-- Opacity 50 -->
+    <color name="tokenOpacity50">#80000000</color>
+    <!-- Opacity 60 -->
+    <color name="tokenOpacity60">#99000000</color>
+    <!-- Opacity 80 -->
+    <color name="tokenOpacity80">#CC000000</color>
+    <!-- Opacity 90 -->
+    <color name="tokenOpacity90">#E6000000</color>
+</resources>

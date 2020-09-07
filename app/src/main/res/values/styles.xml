@@ -1,0 +1,34 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="ShadowLayout">
+        <attr name="slRadius" format="float" />
+        <attr name="slXShift" format="dimension" />
+        <attr name="slYShift" format="dimension" />
+        <attr name="slDownscale" format="float" />
+        <attr name="slColor" format="color" />
+        <attr name="slWithForeground" format="boolean" />
+        <attr name="slWithColor" format="boolean" />
+        <attr name="slWithCssScale" format="boolean" />
+        <attr name="slWithDpiScale" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CoreButton">
+        <attr name="cbtText" format="string" />
+        <attr name="cbtSize" format="enum">
+            <enum name="small" value="0" />
+            <enum name="medium" value="1" />
+            <enum name="large" value="2" />
+        </attr>
+        <attr name="cbtType" format="enum">
+            <enum name="gradient" value="0" />
+            <enum name="outline" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

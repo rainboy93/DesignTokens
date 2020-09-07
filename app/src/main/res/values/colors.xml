@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/tokenGreen100</color>
+    <color name="colorPrimaryDark">@color/tokenBlue100</color>
+    <color name="colorAccent">@color/tokenCyan100</color>
+</resources>

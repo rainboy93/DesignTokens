@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.example.designtokens.views.ShadowLayout
+        android:id="@+id/shadowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tokenSpacing16"
+        app:slDownscale="1"
+        app:slRadius="0"
+        app:slWithColor="true"
+        app:slWithCssScale="true"
+        app:slWithDpiScale="true"
+        app:slWithForeground="true">
+
+        <FrameLayout
+            android:id="@+id/viewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/buttonAction"
+                style="@style/fontMedium18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/tokenWhite"
+                tools:text="Positive" />
+
+            <ImageView
+                android:id="@+id/loadingIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/views_icon_loading_indicator"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+        </FrameLayout>
+    </com.example.designtokens.views.ShadowLayout>
+</layout>

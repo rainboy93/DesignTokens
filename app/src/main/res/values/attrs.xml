@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Font Regular 32 -->
+    <style name="fontRegular32">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_32sdp</item>
+        <item name="lineHeight">@dimen/_38sdp</item>
+    </style>
+    <!-- Font Medium 32 -->
+    <style name="fontMedium32">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_32sdp</item>
+        <item name="lineHeight">@dimen/_38sdp</item>
+    </style>
+    <!-- Font Bold 32 -->
+    <style name="fontBold32">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_32sdp</item>
+        <item name="lineHeight">@dimen/_38sdp</item>
+    </style>
+    <!-- Font Regular 24 -->
+    <style name="fontRegular24">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+        <item name="lineHeight">@dimen/_28sdp</item>
+    </style>
+    <!-- Font Medium 24 -->
+    <style name="fontMedium24">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+        <item name="lineHeight">@dimen/_28sdp</item>
+    </style>
+    <!-- Font Bold 24 -->
+    <style name="fontBold24">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+        <item name="lineHeight">@dimen/_28sdp</item>
+    </style>
+    <!-- Font Regular 22 -->
+    <style name="fontRegular22">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_22sdp</item>
+        <item name="lineHeight">@dimen/_26sdp</item>
+    </style>
+    <!-- Font Medium 22 -->
+    <style name="fontMedium22">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_22sdp</item>
+        <item name="lineHeight">@dimen/_26sdp</item>
+    </style>
+    <!-- Font Bold 22 -->
+    <style name="fontBold22">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_22sdp</item>
+        <item name="lineHeight">@dimen/_26sdp</item>
+    </style>
+    <!-- Font Regular 18 -->
+    <style name="fontRegular18">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="lineHeight">@dimen/_22sdp</item>
+    </style>
+    <!-- Font Medium 18 -->
+    <style name="fontMedium18">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="lineHeight">@dimen/_22sdp</item>
+    </style>
+    <!-- Font Bold 18 -->
+    <style name="fontBold18">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="lineHeight">@dimen/_22sdp</item>
+    </style>
+    <!-- Font Regular 16 -->
+    <style name="fontRegular16">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="lineHeight">@dimen/_20sdp</item>
+    </style>
+    <!-- Font Medium 16 -->
+    <style name="fontMedium16">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="lineHeight">@dimen/_20sdp</item>
+    </style>
+    <!-- Font Bold 16 -->
+    <style name="fontBold16">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="lineHeight">@dimen/_20sdp</item>
+    </style>
+    <!-- Font Regular 14 -->
+    <style name="fontRegular14">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="lineHeight">@dimen/_18sdp</item>
+    </style>
+    <!-- Font Medium 14 -->
+    <style name="fontMedium14">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="lineHeight">@dimen/_18sdp</item>
+    </style>
+    <!-- Font Bold 14 -->
+    <style name="fontBold14">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="lineHeight">@dimen/_18sdp</item>
+    </style>
+    <!-- Font Regular 13 -->
+    <style name="fontRegular13">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="lineHeight">@dimen/_16sdp</item>
+    </style>
+    <!-- Font Medium 13 -->
+    <style name="fontMedium13">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="lineHeight">@dimen/_16sdp</item>
+    </style>
+    <!-- Font Bold 13 -->
+    <style name="fontBold13">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="lineHeight">@dimen/_16sdp</item>
+    </style>
+    <!-- Font Regular 12 -->
+    <style name="fontRegular12">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="lineHeight">@dimen/_14sdp</item>
+    </style>
+    <!-- Font Medium 12 -->
+    <style name="fontMedium12">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="lineHeight">@dimen/_14sdp</item>
+    </style>
+    <!-- Font Bold 12 -->
+    <style name="fontBold12">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="lineHeight">@dimen/_14sdp</item>
+    </style>
+    <!-- Font Regular 10 -->
+    <style name="fontRegular10">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="lineHeight">@dimen/_12sdp</item>
+    </style>
+    <!-- Font Medium 10 -->
+    <style name="fontMedium10">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="lineHeight">@dimen/_12sdp</item>
+    </style>
+    <!-- Font Bold 10 -->
+    <style name="fontBold10">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="lineHeight">@dimen/_12sdp</item>
+    </style>
+    <!-- Font Regular 9 -->
+    <style name="fontRegular09">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="lineHeight">@dimen/_10sdp</item>
+    </style>
+    <!-- Font Medium 9 -->
+    <style name="fontMedium09">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="lineHeight">@dimen/_10sdp</item>
+    </style>
+    <!-- Font Bold 9 -->
+    <style name="fontBold09">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="lineHeight">@dimen/_10sdp</item>
+    </style>
+</resources>

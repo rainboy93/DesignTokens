@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tokenWhite"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.designtokens.views.CoreButton
+            android:id="@+id/buttonLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cbtSize="large"
+            app:cbtText="Button Large" />
+
+        <com.example.designtokens.views.CoreButton
+            android:id="@+id/buttonMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cbtSize="medium"
+            app:cbtText="Button Medium" />
+
+        <com.example.designtokens.views.CoreButton
+            android:id="@+id/buttonSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cbtSize="small"
+            app:cbtText="Button Small" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.designtokens.IntroFragment"
+        android:label="IntroFragment"
+        tools:layout="@layout/fragment_intro">
+        <action
+            android:id="@+id/action_introFragment_to_colorFragment"
+            app:destination="@id/colorFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_fontsFragment"
+            app:destination="@id/fontsFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_spacingFragment"
+            app:destination="@id/spacingFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_shadowFragment"
+            app:destination="@id/shadowFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_borderFragment"
+            app:destination="@id/borderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/colorFragment"
+        android:name="com.example.designtokens.ColorFragment"
+        android:label="ColorFragment"
+        tools:layout="@layout/fragment_color" />
+    <fragment
+        android:id="@+id/fontsFragment"
+        android:name="com.example.designtokens.FontsFragment"
+        android:label="FontsFragment"
+        tools:layout="@layout/fragment_fonts" />
+    <fragment
+        android:id="@+id/spacingFragment"
+        android:name="com.example.designtokens.SpacingFragment"
+        android:label="SpacingFragment"
+        tools:layout="@layout/fragment_spacing" />
+    <fragment
+        android:id="@+id/shadowFragment"
+        android:name="com.example.designtokens.ShadowFragment"
+        android:label="ShadowFragment"
+        tools:layout="@layout/fragment_shadow" />
+    <fragment
+        android:id="@+id/borderFragment"
+        android:name="com.example.designtokens.BorderFragment"
+        android:label="BorderFragment"
+        tools:layout="@layout/fragment_border" />
+</navigation>

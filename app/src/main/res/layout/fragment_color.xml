@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tokenBlack"
+    android:fillViewport="true"
+    android:padding="@dimen/tokenSpacing16"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <TextView
+                style="@style/fontBold22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cyan"
+                android:textColor="@color/tokenCyan100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenCyan100"
+                android:textColor="@color/tokenCyan100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenCyan80"
+                android:textColor="@color/tokenCyan80" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenCyan60"
+                android:textColor="@color/tokenCyan60" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenCyan40"
+                android:textColor="@color/tokenCyan40" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenCyan20"
+                android:textColor="@color/tokenCyan20" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenCyan10"
+                android:textColor="@color/tokenCyan10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tokenBlack"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <TextView
+                style="@style/fontBold22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blue"
+                android:textColor="@color/tokenBlue100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenBlue100"
+                android:textColor="@color/tokenBlue100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenBlue80"
+                android:textColor="@color/tokenBlue80" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenBlue60"
+                android:textColor="@color/tokenBlue60" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenBlue40"
+                android:textColor="@color/tokenBlue40" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenBlue20"
+                android:textColor="@color/tokenBlue20" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenBlue10"
+                android:textColor="@color/tokenBlue10" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/gradientText"
+            style="@style/fontBold22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tokenBlack"
+            android:text="Gradient"
+            android:textColor="@color/tokenCyan100" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/gradient" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tokenBlack"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <TextView
+                style="@style/fontBold22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green"
+                android:textColor="@color/tokenGreen100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenGreen100"
+                android:textColor="@color/tokenGreen100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenGreen80"
+                android:textColor="@color/tokenGreen80" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenGreen60"
+                android:textColor="@color/tokenGreen60" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenGreen40"
+                android:textColor="@color/tokenGreen40" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenGreen20"
+                android:textColor="@color/tokenGreen20" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenGreen10"
+                android:textColor="@color/tokenGreen10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tokenBlack"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <TextView
+                style="@style/fontBold22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow"
+                android:textColor="@color/tokenYellow100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenYellow100"
+                android:textColor="@color/tokenYellow100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenYellow80"
+                android:textColor="@color/tokenYellow80" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenYellow60"
+                android:textColor="@color/tokenYellow60" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenYellow40"
+                android:textColor="@color/tokenYellow40" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenYellow20"
+                android:textColor="@color/tokenYellow20" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenYellow10"
+                android:textColor="@color/tokenYellow10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tokenBlack"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <TextView
+                style="@style/fontBold22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textColor="@color/tokenRed100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenRed100"
+                android:textColor="@color/tokenRed100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenRed80"
+                android:textColor="@color/tokenRed80" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenRed60"
+                android:textColor="@color/tokenRed60" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenRed40"
+                android:textColor="@color/tokenRed40" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenRed20"
+                android:textColor="@color/tokenRed20" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenRed10"
+                android:textColor="@color/tokenRed10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tokenBlue100"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <TextView
+                style="@style/fontBold22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Neutral"
+                android:textColor="@color/tokenDark100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenDark100"
+                android:textColor="@color/tokenDark100" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenDark80"
+                android:textColor="@color/tokenDark80" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenDark60"
+                android:textColor="@color/tokenDark60" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenDark40"
+                android:textColor="@color/tokenDark40" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenDark20"
+                android:textColor="@color/tokenDark20" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenDark10"
+                android:textColor="@color/tokenDark10" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenDark05"
+                android:textColor="@color/tokenDark05" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenDark02"
+                android:textColor="@color/tokenDark02" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenBlack"
+                android:textColor="@color/tokenBlack" />
+
+            <TextView
+                style="@style/fontRegular14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tokenWhite"
+                android:textColor="@color/tokenWhite" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

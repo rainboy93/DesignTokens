@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing 0 -->
+    <dimen name="tokenSpacing00">0dp</dimen>
+    <!-- Spacing 2 -->
+    <dimen name="tokenSpacing02">@dimen/_2sdp</dimen>
+    <!-- Spacing 4 -->
+    <dimen name="tokenSpacing04">@dimen/_4sdp</dimen>
+    <!-- Spacing 8 -->
+    <dimen name="tokenSpacing08">@dimen/_8sdp</dimen>
+    <!-- Spacing 12 -->
+    <dimen name="tokenSpacing12">@dimen/_12sdp</dimen>
+    <!-- Spacing 16 -->
+    <dimen name="tokenSpacing16">@dimen/_16sdp</dimen>
+    <!-- Spacing 24 -->
+    <dimen name="tokenSpacing24">@dimen/_24sdp</dimen>
+    <!-- Spacing 32 -->
+    <dimen name="tokenSpacing32">@dimen/_32sdp</dimen>
+    <!-- Spacing 40 -->
+    <dimen name="tokenSpacing40">@dimen/_40sdp</dimen>
+    <!-- Spacing 48 -->
+    <dimen name="tokenSpacing48">@dimen/_48sdp</dimen>
+
+    <!-- Border radius 2 -->
+    <dimen name="tokenBorderRadius02">@dimen/_2sdp</dimen>
+    <!-- Border radius 4 -->
+    <dimen name="tokenBorderRadius04">@dimen/_4sdp</dimen>
+    <!-- Border radius 6 -->
+    <dimen name="tokenBorderRadius06">@dimen/_6sdp</dimen>
+    <!-- Border radius 8 -->
+    <dimen name="tokenBorderRadius08">@dimen/_8sdp</dimen>
+    <!-- Border radius 10 -->
+    <dimen name="tokenBorderRadius10">@dimen/_10sdp</dimen>
+    <!-- Border radius 12 -->
+    <dimen name="tokenBorderRadius12">@dimen/_12sdp</dimen>
+    <!-- Border radius 14 -->
+    <dimen name="tokenBorderRadius14">@dimen/_14sdp</dimen>
+    <!-- Border radius 16 -->
+    <dimen name="tokenBorderRadius16">@dimen/_16sdp</dimen>
+    <!-- Border radius 18 -->
+    <dimen name="tokenBorderRadius18">@dimen/_18sdp</dimen>
+    <!-- Border radius 20 -->
+    <dimen name="tokenBorderRadius20">@dimen/_20sdp</dimen>
+
+    <!--    Font size -->
+<!--    <dimen name="tokenFontSize26">@dimen/_22sdp</dimen>-->
+<!--    <dimen name="tokenFontSize24">@dimen/_20sdp</dimen>-->
+<!--    <dimen name="tokenFontSize22">@dimen/_18sdp</dimen>-->
+<!--    <dimen name="tokenFontSize18">@dimen/_15sdp</dimen>-->
+<!--    <dimen name="tokenFontSize16">@dimen/_13sdp</dimen>-->
+<!--    <dimen name="tokenFontSize14">@dimen/_12sdp</dimen>-->
+<!--    <dimen name="tokenFontSize13">@dimen/_11sdp</dimen>-->
+<!--    <dimen name="tokenFontSize12">@dimen/_10sdp</dimen>-->
+<!--    <dimen name="tokenFontSize10">@dimen/_8sdp</dimen>-->
+
+    <!-- Gradient Button -->
+    <dimen name="buttonSizeSmall">@dimen/tokenSpacing24</dimen>
+    <dimen name="buttonSizeMedium">@dimen/tokenSpacing32</dimen>
+    <dimen name="buttonSizeLarge">@dimen/tokenSpacing48</dimen>
+<!--    <dimen name="buttonTextSizeSmall">@dimen/tokenFontSize12</dimen>-->
+<!--    <dimen name="buttonTextSizeMedium">@dimen/tokenFontSize14</dimen>-->
+<!--    <dimen name="buttonTextSizeLarge">@dimen/tokenFontSize18</dimen>-->
+    <dimen name="buttonPaddingSmall">@dimen/tokenSpacing08</dimen>
+    <dimen name="buttonPaddingMedium">@dimen/tokenSpacing16</dimen>
+    <dimen name="buttonPaddingLarge">@dimen/tokenSpacing24</dimen>
+    <dimen name="buttonLoadingSmall">@dimen/tokenSpacing16</dimen>
+    <dimen name="buttonLoadingMedium">@dimen/tokenSpacing24</dimen>
+    <dimen name="buttonLoadingLarge">@dimen/tokenSpacing32</dimen>
+</resources>
